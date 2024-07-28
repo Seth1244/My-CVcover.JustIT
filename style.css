@@ -176,19 +176,7 @@ h1::before{
     overflow:hidden;
     animation:animate 8s linear infinite;
 }
-@keyframes animate
-{
-    0%,10%,100%
-    {
-        width: 0;
-    }
-  
-70%,90%
-{    
-        width: 100%;
 
-}
-}
 
 h1{
 color: white;
@@ -198,7 +186,7 @@ color: white;
 h4{
     color: #8f6b76;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .newslatter form{
     width: 380 px;
@@ -210,12 +198,13 @@ h4{
     display:inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
-    border: 2px solid #f9004d;
+    border: px solid #f9004d;
     outline: none;
     border-radius: 30px;
 }
 .newslatter form input:last-child{
     position: absolute;
+    
     display: inline-block;
     outline: none;
     border: none;
